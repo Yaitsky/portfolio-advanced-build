@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="null">
+  <head>
+    <meta charset="utf-8">
+    <title>Добро пожаловать!</title>
+    <meta content="Igor Yaitsky" name="author">
+    <meta content="Portfolio 2016 by Loftschool Web-Advanced" name="description">
+    <meta content="Portfolio, Igor Yaitsky" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="first-screen-wrapper">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="welcome welcome_front">
+            <div class="welcome__logo"></div>
+            <h1 class="welcome__name">Игорь Яицкий</h1>
+            <div class="welcome__desc">Личный сайт веб-разработчика</div>
+            <ul class="social__list">
+              <li class="social__item"><a class="social__link" href="http://vk.com/yaickiu" target="_blank">
+                      <svg class="icon icon-vk social-mod-vk">
+                        <use xlink:href="assets/img/sprite.svg#vk"></use>
+                      </svg></a></li>
+              <li class="social__item"><a class="social__link" href="http://github.com/yaitsky" target="_blank">
+                      <svg class="icon icon-github social-mod">
+                        <use xlink:href="assets/img/sprite.svg#github"></use>
+                      </svg></a></li>
+              <li class="social__item"><a class="social__link" href="http://linkedin.com" target="_blank">
+                      <svg class="icon icon-in social-mod">
+                        <use xlink:href="assets/img/sprite.svg#in"></use>
+                      </svg></a></li>
+            </ul>
+            <ul class="welcome-menu__list">
+              <li class="welcome-menu__item welcome-menu__item-works"><a class="welcome-menu__link" href="works.html">Мои работы</a></li>
+              <li class="welcome-menu__item welcome-menu__item-about"><a class="welcome-menu__link" href="about.html">Обо мне</a></li>
+              <li class="welcome-menu__item welcome-menu__item-blog"><a class="welcome-menu__link" href="blog.html">Блог</a></li>
+            </ul>
+          </div>
+          <div class="welcome welcome_back">
+            <div class="welcome__auth-text">Авторизуйтесь</div>
+            <div class="title-hr title-hr_white"></div>
+            <form class="welcome__form" method="post">
+              <div class="welcome__form-row">
+                <label class="welcome__form-block">
+                  <div class="welcome__form-label">
+                        <svg class="icon icon-login welcome-form-mod">
+                          <use xlink:href="assets/img/sprite.svg#login"></use>
+                        </svg>
+                  </div>
+                  <input class="welcome__form-input" type="text" name="login" placeholder="Логин">
+                </label>
+              </div>
+              <div class="welcome__form-row">
+                <label class="welcome__form-block">
+                  <div class="welcome__form-label">
+                        <svg class="icon icon-password welcome-form-mod">
+                          <use xlink:href="assets/img/sprite.svg#password"></use>
+                        </svg>
+                  </div>
+                  <input class="welcome__form-input" type="password" name="password" placeholder="Пароль">
+                </label>
+              </div>
+              <div class="welcome__form-row">
+                <label class="welcome__form-radio">
+                  <input class="welcome__check-elem" type="checkbox" name="man">
+                  <div class="welcome__check-fake">
+                        <svg class="icon icon-check welcome-man-mod">
+                          <use xlink:href="assets/img/sprite.svg#check"></use>
+                        </svg>
+                  </div>
+                  <div class="welcome__radio-text">Я человек</div>
+                </label>
+              </div>
+              <div class="welcome__form-row">
+                <div class="welcome__form-question">Вы точно не робот?</div>
+              </div>
+              <div class="welcome__form-row">
+                <label class="welcome__form-radio">
+                  <input class="welcome__radio-elem" type="radio" name="robot">
+                  <div class="welcome__radio-fake"></div>
+                  <div class="welcome__radio-text">Да</div>
+                </label>
+                <label class="welcome__form-radio welcome__form-radio-int">
+                  <input class="welcome__radio-elem" type="radio" name="robot">
+                  <div class="welcome__radio-fake"></div>
+                  <div class="welcome__radio-text">Не уверен</div>
+                </label>
+              </div>
+              <ul class="welcome-menu__list">
+                <li class="welcome-menu__item welcome-menu__item-main"><a class="welcome-menu__link welcome-menu__link_flip" href="#">На главную</a></li>
+                <li class="welcome-menu__item welcome-menu__item-submit">
+                  <button class="welcome__submit" type="submit">Войти</button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="welcome-footer">&copy; Игорь Яицкий | создано с любовью в Loftschool | 2016</div>
+      <div class="welcome-auth"><a class="welcome-auth__link" href="#">Авторизация</a></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
+    <script src="./assets/js/foundation.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+  </body>
+</html>

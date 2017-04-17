@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="null">
+  <head>
+    <meta charset="utf-8">
+    <title>Блог</title>
+    <meta content="Igor Yaitsky" name="author">
+    <meta content="Portfolio 2016 by Loftschool Web-Advanced" name="description">
+    <meta content="Portfolio, Igor Yaitsky" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./assets/css/foundation.css">
+    <link rel="stylesheet" href="./assets/css/app.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <section class="first-screen-wrapper first-screen-wrapper_blog">
+      <div class="welcome first-screen-block welcome first-screen-block_blog">
+        <div class="welcome__logo"></div>
+        <h1 class="blog-title">Блог</h1>
+        <div class="title-hr title-hr_white"></div>
+        <div class="welcome__desc">Статьи, которые я написал</div>
+      </div>
+      <div class="menu">
+        <button class="c-hamburger c-hamburger--htx"><span>toggle menu</span></button>
+      </div>
+      <div class="bg-header">
+            <svg class="icon icon-blog_header bg-header-blog-mod">
+              <use xlink:href="assets/img/sprite.svg#blog_header"></use>
+            </svg>
+      </div>
+      <div class="first-screen-bg">
+        <svg class="first-screen-decor" viewbox="0 0 1000 100" preserveAspectRatio="none">
+          <polygon class="first-screen-decor__blog" points="0,0 0,100 500,100 500,98"></polygon>
+          <polygon class="first-screen-decor__blog" points="1000,0 1000,100 500,100 500,98"></polygon>
+        </svg>
+      </div>
+    </section>
+    <aside class="fullscreen-menu">
+      <nav class="fullscreen-menu__block">
+        <ul class="fullscreen-menu__list">
+          <li class="fullscreen-menu__item"><a class="fullscreen-menu__link" href="works.html">Мои работы</a></li>
+          <li class="fullscreen-menu__item"><a class="fullscreen-menu__link" href="about.html">Обо мне</a></li>
+          <li class="fullscreen-menu__item"><a class="fullscreen-menu__link" href="blog.html">Блог</a></li>
+          <li class="fullscreen-menu__item"><a class="fullscreen-menu__link" href="index.html">Авторизация</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <section class="blog clearfix">
+      <aside class="blog__left">
+        <div class="blog__left_btn"></div>
+        <ul class="blog__list">
+          <li class="blog__item blog__item_active"><a class="blog__link" href="#">Как быть начинающим разработчиком и не сойти с ума</a></li>
+          <li class="blog__item"><a class="blog__link" href="#">Jade — препроцессор HTML</a></li>
+          <li class="blog__item"><a class="blog__link" href="#">Самый необходимый набор Gulp - плагинов</a></li>
+          <li class="blog__item"><a class="blog__link" href="#">10 советов начинающему веб-разработчику</a></li>
+        </ul>
+      </aside>
+      <div class="blog__right">
+        <article class="article">
+          <h2 class="article__title">Как быть начинающим разработчиком и не сойти с ума</h2>
+          <div class="article__date">22 декабря 2016 года</div>
+          <div class="article__text">
+            <p>Не сравнивай</p>
+            <p>
+              Первые месяцы начинающий разработчик сильно переживает, что в команде есть люди моложе или равные
+              по возрасту, но уже работающие гораздо эффективнее и знающие в разы больше. Сравнивать себя с ними
+              — тупиковый путь, и ни к чему хорошему он не приведёт. Гораздо лучше сравнивать себя сегодняшнего с
+              собой вчерашним. Если делаешь то, что ещё недавно считал слишком сложным для себя, то ты растёшь,
+              и это отлично.
+            </p>
+            <p>Не отвлекайся</p>
+            <p>
+              Как это обычно бывает: о, почитаю про grid’ы, потом зайду на ютуб, там вышел новый курс по
+              Gulp от Кантора, а потом в твиттере опубликовали ссылку на новую JS-библиотеку. Основы PHP, сделай
+              свой интернет-магазин на Ruby on Rails, новый курс по React…
+            </p>
+            <p>
+              В результате получается посредственный разработчик, который что-то где-то слышал,
+              но не имеет полноценного понимания и не в состоянии выдать качественный результат.
+              Решением является составление детального плана обучения. Это не значит, что не надо
+              читать новости, просто стоит сократить количество и внимание, уделяемое им. Рекомендую
+              посмотреть это. Особенно полезно про концентрацию.Вернёмся к плану. Для фронтенд-разработчиков
+              последовательность очевидна — качественная адаптивная вёрстка, вся теория по ES 2015, можно
+              немного jQuery и уже только потом популярные фреймворки. Не стоит гнаться за модой и
+              спешить изучать тот же React. Почему? На этот вопрос уже неплохо ответили тут. Многие из
+              моих знакомых начинали другим путём и всё равно приходили к тому, что надо последовательно обучаться.
+            </p>
+            <p>Прими тот факт, что ты будешь много косячить</p>
+            <p>
+              Тебе предстоит ошибаться и ошибаться много. Недавно я испортил репозиторий
+              с недельной работой своих товарищей. Можно только представить мой уровень «радости».
+              К счастью, коллеги смогли восстановить всё без долгих затрат времени и сил.
+              
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <h2 class="article__title">Jade — препроцессор HTML</h2>
+          <div class="article__date">22 ноября 2016 года</div>
+          <div class="article__text">
+            <p>Пересмотрел свое отношение к препроцессорам HTML вроде HAML, Slim, Jade.</p>
+            <p>
+              Сейчас использую Jade, который, к сожалению, изменил столь прекрасное название
+              из-за юридических заморочек и был переименован в Pug. Итак впечатления наилучшие,
+              работать стало удобнее. Теперь вместо разворачивания тегов с помощью Emmet, подобный
+              код просто записывается в файлики .jade и обрабатывается gulp в полноценный .html.
+              Также в качестве эксперимента синтаксис SCSS изменен на SASS, тоже использующий индентацию.
+            </p>
+            <p>
+              Под Ruby Slim будет получше HAML и уж точно в разы лучше ERB (HTML). Также как и в случае
+              с SASS/LESS/Stylus нужно уже отлично знать HTML, прежде чем приступать к препроцессорам.
+              
+              
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <h2 class="article__title">Самый необходимый набор Gulp - плагинов</h2>
+          <div class="article__date">14 ноября 2016 года</div>
+          <div class="article__text">
+            <p>
+              Доброго времени суток, всем! Кто-то умный, не помню в какой статье именно на Хабре,
+              буквально недавно размышлял о процессе разработки с явным призывом автоматизировать все,
+              что только можно автоматизировать. И лучше один раз потратить время на автоматизацию,
+              чтобы потом экономить его на протяжении всего проекта.
+            </p>
+            <p>
+              У веб-разработчиков есть прекрасный инструмент для автоматизации массы задач, который
+               называется Gulp. И моя страсть к таксономии заставила себя собрать огромную коллекцию
+               почти из 100 ценных плагинов для этого сборщика. Думаю многие кто уже использует Gulp
+               найдут для себя что-то нужное, а кто нет, глядя на возможности, получит хорошую мотивацию
+               установить его и понять как эта штука работает.
+            </p>
+            <p>HTML&CSS</p>
+            <p>
+              autoprefixer — один из самых полезных плагинов, который автоматически расставляет
+              префиксы к CSS свойствам, исходя из статистики caniuse. Важно сказать, что Автопрефиксер
+              это лишь один из множества дополнений в рамках проекта PostCSS от Злых Марсиан.
+            </p>
+            <p>
+              gulp-browser-sync — вероятно, самый нужный инструмент, с точки зрения повышения
+              продуктивности веб-разработчиков. BrowserSync создает подключение, после чего производит
+              автообновление страницы во всех браузерах на всех устройствах при изменениями не только
+              клиентских или даже серверных файлов. А плюс ко всему синхронизирует позицию скроллинга
+              и заполненные данные в формах.
+            </p>
+            <p>gulp-useref — парсит специфичные блоки и конкатенирует описанные в них стили и скрипты.</p>
+            <p>
+              gulp-email-design — бесценный инструмент при верстки писем, который переводит все CSS
+              стили в инлайновые, автоматически изменяя все пути к файлам, опционально умеет загружать
+              изображения на CDN и даже отсылать письма на почту.
+            </p>
+            <p>
+              gulp-uncss — лучшее решение для оптимизации CSS файлов. Плагин анализирует HTML код и
+              находит все неиспользуемые и продублированные стили.
+            </p>
+            <p>
+              gulp-csso — отличный CSS минификатор. На сегодняшний день существует целый ряд CSS
+              компрессоров и сравнительная таблица (GitHub) по ним.
+              
+            </p>
+          </div>
+        </article>
+        <article class="article">
+          <h2 class="article__title">10 советов начинающему веб-разработчику</h2>
+          <div class="article__date">10 ноября 2016 года</div>
+          <div class="article__text">
+            <p>
+              Хорошо, когда работаешь с человеком, который отлично знает толк в своём деле. А что,
+              если случается работать с коллегой, опыт которого не столь большой. Особенно это
+              касается профессионально-личностных качеств. Невольно приходится подсказывать, местами
+              помогать ему, а где-то даже откровенно учить. Все мы когда-то начинали.
+              Все эти действия требуют немалых усилий, которые можно было бы применить по прямому
+              назначению — в разработке проекта, но без подготовки новых специалистов будет тяжелее.
+            </p>
+            <p>
+              Так вот, чтобы минимизировать эти затраты, давайте «создадим» хорошего, а возможно и
+              идеального начинающего программиста, с высоким потенциалом и светлыми горизонтами.
+            </p>
+            <p>1. Будьте самостоятельными</p>
+            <p>2. Умейте спрашивать</p>
+            <p>3. Постоянно развивайтесь</p>
+            <p>4. Не бойтесь учиться оценивать</p>
+            <p>5. Не забывайте о всей картине системы</p>
+            <p>6. В меру используйте готовые решения</p>
+            <p>7. Цените свой труд</p>
+            <p>8. Не будьте ленивыми</p>
+            <p>9. Умейте правильно излагать свои мысли</p>
+            <p>
+              10. Не ограничивайтесь своей ролью
+              
+            </p>
+          </div>
+        </article>
+      </div>
+      <footer class="footer">
+        <div class="footer__row clearfix">
+          <div class="footer__col footer__col_left">
+            <div class="footer__text">Этот сайт я сделал в рамках обучения в Школе онлайн-образования Loftschool</div>
+          </div>
+          <div class="footer__col footer__col_hr">
+            <ul class="footer__list">
+              <li class="footer__item"><a class="footer__link" href="works.html">Мои работы</a></li>
+              <li class="footer__item"><a class="footer__link" href="about.html">Обо мне</a></li>
+              <li class="footer__item"><a class="footer__link" href="blog.html">Блог</a></li>
+              <li class="footer__item"><a class="footer__link" href="index.html">Авторизация</a></li>
+            </ul>
+            <ul class="social__list social__list_footer">
+              <li class="social__item"><a class="social__link" href="http://vk.com/yaickiu" target="_blank">
+                      <svg class="icon icon-vk social-mod-vk">
+                        <use xlink:href="assets/img/sprite.svg#vk"></use>
+                      </svg></a></li>
+              <li class="social__item"><a class="social__link" href="http://github.com/yaitsky" target="_blank">
+                      <svg class="icon icon-github social-mod">
+                        <use xlink:href="assets/img/sprite.svg#github"></use>
+                      </svg></a></li>
+              <li class="social__item"><a class="social__link" href="http://linkedin.com" target="_blank">
+                      <svg class="icon icon-in social-mod">
+                        <use xlink:href="assets/img/sprite.svg#in"></use>
+                      </svg></a></li>
+            </ul>
+          </div>
+          <div class="footer__col footer__col_right">
+            <div class="footer__quote">Всегда пишите код так, будто сопровождать его будет склонный к насилию психопат, который знает, где вы живете</div>
+            <div class="footer__autor">&mdash; Martin Golding</div>
+          </div>
+        </div>
+        <div class="footer__copy">&copy; Игорь Яицкий | создано с любовью в Loftschool | 2016</div>
+      </footer>
+    </section>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&amp;sensor=false&amp;extension=.js"></script>
+    <script src="./assets/js/foundation.js" defer></script>
+    <script src="./assets/js/app.js" defer></script>
+  </body>
+</html>
